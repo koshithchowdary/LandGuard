@@ -20,3 +20,6 @@ Use the sidebar role selector to explore Customer, Field Agent, and Admin workfl
 
 ## Product direction
 V2 will add real customer accounts, field-agent GPS/evidence controls, property intelligence, a permanent Property Passport, NRI notifications, and a local services marketplace.
+
+## V2
+Premium trust-focused prototype branch.
