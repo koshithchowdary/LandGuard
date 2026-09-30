@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/landguard.db
+data/uploads/*
+!data/uploads/.gitkeep
