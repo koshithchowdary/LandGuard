@@ -6,9 +6,10 @@ Updated: 2026-10-29
 - Provider registry for Telangana Bhu Bharati and AP MeeBhoomi/Webland with explicit blocked status; no undocumented endpoints are called.
 - Allow-listed normalized snapshots, deterministic SHA-256 fingerprints, field-level comparisons and safe check-result states.
 - Retrieval failures produce `source_unavailable`, never a false “no change”.
+- SQLite persistence for monitoring preferences, owner-provided record snapshots, check outcomes and audit history; a Streamlit page exposes preferences, connector status and history. This is still single-demo-account/local storage, not production multi-tenant infrastructure.
 - Notification channel readiness checks for email, SMS and WhatsApp environment variables. This is configuration detection only; it does not send messages.
 - `.env.example` lists expected secret names without real credentials.
-- Unit tests for hashing, allow-listing, changes, failure handling and government connector status.
+- Unit tests for hashing, allow-listing, changes, failure handling, government connector status, and monitoring-store persistence (tests added; execution not yet verified).
 
 ## Not implemented / not production-ready
 - Government APIs: blocked pending written access, specs, sandbox and credentials.
