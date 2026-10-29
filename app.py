@@ -16,6 +16,7 @@ st.sidebar.info('MVP demo • Data is stored locally in SQLite.\n\nAI findings a
 customer_pages = [
     st.Page('pages/customer_dashboard.py', title='Dashboard', icon='🏠'),
     st.Page('pages/property_passport.py', title='Property Passport', icon='📘'),
+    st.Page('pages/land_monitoring.py', title='Land Monitoring', icon='🛰️'),
     st.Page('pages/inspection_history.py', title='Inspection History', icon='📸'),
     st.Page('pages/service_request.py', title='Request Inspection', icon='📝'),
 ]
